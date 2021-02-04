@@ -2,6 +2,7 @@ function Storage() {
   return (
     <section id="storage">
       <h2>쿠키, 로컬/세션스토리지</h2>
+      <p>업데이트(21.02.04)</p>
       <p>브라우저에 데이터를 저장하는 방법: <a href="https://developer.mozilla.org/ko/docs/Web/HTTP/Cookies" target="_blank" rel="noreferrer">쿠키</a>, <a href="https://developer.mozilla.org/ko/docs/Web/API/Window/localStorage" target="_blank" rel="noreferrer">로컬스토리지</a>, <a href="https://developer.mozilla.org/ko/docs/Web/API/Window/sessionStorage" target="_blank" rel="noreferrer">세션스토리지</a></p>
       <table>
         <thead>
@@ -33,7 +34,7 @@ function Storage() {
           </tr>
         </tbody>
       </table>
-      <p>브라우저에 저장하는 데이터에는 보안이나 개인정보등 중요정보는 저장하면 위험</p>
+      <p>브라우저에 저장하는 데이터에는 보안이나 개인정보등 중요정보는 저장할 경우 위험</p>
     </section>
   );
 }

@@ -1,3 +1,8 @@
+@import "d_component.scss";
+
+
+
+
 @font-face {
   font-family: 'NEXON Lv1 Gothic OTF';
   src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-04@2.1/NEXON Lv1 Gothic OTF.woff') format('woff');
@@ -10,7 +15,10 @@
   font-weight: normal;
   font-style: normal;
 }
+*{box-sizing: border-box;}
 h1,h2,h3,p,div{font-family: 'NEXON Lv1 Gothic OTF';}
+
+
 
 h1{font-size: 30px;}
 h2{font-size: 20px;font-family: 'NEXON Lv1 Gothic OTF Bold';}
@@ -22,6 +30,8 @@ ul,ol{
 }
 
 pre{padding-left: 2em !important;border-left: 5px solid #666;}
+
+p{color: #444;}
 
 table{width: 100%;border-collapse: collapse;border-spacing: 0;table-layout:fixed;
   tr{
@@ -53,3 +63,5 @@ table{width: 100%;border-collapse: collapse;border-spacing: 0;table-layout:fixed
     &:last-child{padding-bottom: 50px;}
   }
 }
+
+#designComp .de_inp{width: 100%;}
