@@ -132,7 +132,8 @@ const btnFill = `<button class="de_btn sg fill">BUTTON</button>
 
   return (
     <section id="designComp">
-      <h2>디자인 컴포넌트</h2>
+      <h2>인수인계 자료가 될 것 같으니까 정리 필요한 자료는 요청해 주세요.</h2>
+      <h2 className="pt100">디자인 컴포넌트</h2>
       <p>업데이트(19.12.09)</p>
       <p>input, radio, checkbox, textarea, button 스타일 정의</p>
       <p>파일명 : d_component.scss</p>

@@ -109,14 +109,14 @@ const c6 = `<form action="" class="ex_form">
         <li><a href="https://github.com/axios/axios" target="_blank" className="a" rel="noreferrer">AXIOS</a> : promise를 사용 가능하지만 ie에서 지원하지 않기 때문에 추가 스크립트 필요</li>
         <li><a href="https://developer.mozilla.org/ko/docs/Web/API/Fetch_API/Fetch%EC%9D%98_%EC%82%AC%EC%9A%A9%EB%B2%95" target="_blank" className="a" rel="noreferrer">Fetch API</a> : 순수 js 기능으로 ie는 지원이 안됨</li>
       </ul>
-      <h3 id="json" className="pt100">Jquery Ajax</h3>
+      <h3 className="pt100">Jquery Ajax</h3>
       <div className="pb100">
       <SyntaxHighlighter language="javascript" style={docco}>
         {c1}
       </SyntaxHighlighter>
       </div>
-      <h3>AJAX에 사용되는 JSON 형식</h3>
-      <ul className="pb50">
+      <h3 id="json" className="pt100">AJAX에 사용되는 JSON 형식</h3>
+      <ul>
         <li>일반 js 객체, 배열 형태로 사용</li>
         <li>쌍따옴표(")를 사용</li>
         <li>객체의 속성 마지막, 배열의 마지막요소에는 콤마(,)를 사용하지 않음</li>
