@@ -13,7 +13,7 @@ function Header() {
             </ul>
           </li>
           <li><a href="#commonjs">commonjs</a></li>
-          <li><a href="#nodejs">nodejs Server</a></li>
+          
           <li><a href="#ajax">AJAX</a>
             <ul>
               <li><a href="#json">JSON</a></li>
@@ -22,6 +22,8 @@ function Header() {
             </ul>
           </li>
           <li><a href="#storage">쿠키, 로컬/세션스토리지</a></li>
+          <li><a href="#nodejs">nodejs Server</a></li>
+          <li><a href="#linux">리눅스 기본 명령어</a></li>
           <li><a href="#etc">기타</a>
             <ul>
               <li><a href="#jsplugin">jquery plugin</a></li>

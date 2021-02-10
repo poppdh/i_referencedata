@@ -8,6 +8,7 @@ import CommonJs from './component/common';
 import Nodejs from './component/nodejs';
 import Ajax from './component/ajax';
 import Storage from './component/storage';
+import Linux from './component/linux';
 
 import Etc from './component/etc';
 
@@ -18,9 +19,10 @@ function App() {
       <div id="contents">
         <DesignComp />
         <CommonJs />
-        <Nodejs />
         <Ajax />
         <Storage />
+        <Nodejs />
+        <Linux />
         <Etc />
       </div>
     </div>
